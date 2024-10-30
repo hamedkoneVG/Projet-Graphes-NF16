@@ -1,9 +1,9 @@
 # Projet de Manipulation de Graphes en C
 
-Projet realisé dans le cadre de la matière NF16 Structures de Données et Algorithmie
+Projet realisé dans le cadre de la matière NF16 Structures de Données et Algorithmique
 Ce projet implémente un graphe non orienté en utilisant une liste chaînée de sommets, chacun ayant une liste chaînée de voisins. Il inclut plusieurs fonctionnalités permettant la création, la manipulation et la suppression de sommets et d’arêtes pour explorer les propriétés du graphe, comme la détection de boucles et la fusion de sommets.
 
-## Structure des données
+## Structures de données
 
 - **sommet** : représente un sommet du graphe, incluant son identifiant, un pointeur vers le sommet suivant et une liste chaînée de voisins.
 - **voisin** : représente un voisin d’un sommet, c'est-à-dire une arête vers un autre sommet.
@@ -25,7 +25,7 @@ Le projet propose les fonctions suivantes :
 - **contientBoucle** et **recherche_boucle** : détectent les cycles dans le graphe en parcourant les arêtes.
 - **fusionnerSommet** : fusionne deux sommets en un seul, en combinant leurs voisins.
 - **viderBuffer** : vide le buffer d'entrée pour éviter les erreurs de saisie.
-  ## Exemple d'utilisation
+## Exemple d'utilisation
 
 Une fois le programme compilé et exécuté, un menu interactif est proposé pour manipuler le graphe. Voici les principales options disponibles :
 
