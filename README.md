@@ -1,7 +1,7 @@
 # Projet de Manipulation de Graphes en C
 
 Projet realisé dans le cadre de la matière NF16 Structures de Données et Algorithmique
-- Ce projet implémente un graphe non orienté en utilisant une liste chaînée de sommets. Chaque sommet est associé a une liste chaînée de ---voisins. 
+- Ce projet implémente un graphe non orienté en utilisant une liste chaînée de sommets. Chaque sommet est associé a une liste chaînée de voisins. 
 - Il inclut plusieurs fonctionnalités permettant la création, la manipulation et la suppression de sommets et d'arretes. 
 - Le projet inclut également des fonctions qui permettent la détection de boucles et la fusion de sommets.
 
